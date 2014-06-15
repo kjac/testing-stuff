@@ -7,9 +7,9 @@ using Umbraco.Web;
 
 namespace SuperWebApp.Component {
 	public class SomeUmbracoStuff {
-		public bool SomeMethod() {
+		public string SomeMethod() {
 			var helper = new UmbracoHelper(UmbracoContext.Current);
-			return helper.TypedContentAtRoot() != null;
+			return helper.TypedContentAtRoot().First().Name;
 		}
 	}
 }
