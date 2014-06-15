@@ -21,7 +21,8 @@ packages/
 
 .sass-cache
 
-SuperWebApp/App_*
+SuperWebApp/App_Browsers
+SuperWebApp/App_Data
 SuperWebApp/Global.asax
 SuperWebApp/Install
 SuperWebApp/Media
