@@ -27,10 +27,6 @@ SuperWebApp/Install
 SuperWebApp/Media
 SuperWebApp/Umbraco
 SuperWebApp/Umbraco_Client
-SuperWebApp/UserControls
-SuperWebApp/Views/Web.config*
-SuperWebApp/Xslt/Web.config*
-SuperWebApp/connectionStrings.config
 SuperWebApp/default.aspx
 SuperWebApp/frontend/node_modules/
 SuperWebApp/localappsettings.config
