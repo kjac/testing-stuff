@@ -204,8 +204,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\default.min.css" />
+    <Content Include="css\ie7.css" />
+    <Content Include="css\ie8.css" />
+    <Content Include="css\ie9.css" />
+    <Content Include="css\images\highlight.png" />
+    <Content Include="css\images\icons-contact.png" />
+    <Content Include="css\images\icons-meta.png" />
+    <Content Include="css\images\icons-special.png" />
+    <Content Include="css\images\overlay.png" />
+    <Content Include="css\skel-noscript.css" />
+    <Content Include="css\style-1000px.css" />
+    <Content Include="css\style-desktop.css" />
+    <Content Include="css\style-mobile.css" />
+    <Content Include="css\style.css" />
+    <Content Include="images\mobileUI-site-nav-opener-bg.svg" />
+    <Content Include="images\mobileUI-site-nav.svg" />
+    <Content Include="js\config.js" />
+    <Content Include="js\default.min.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\skel-panels.min.js" />
+    <Content Include="js\skel.min.js" />
     <Content Include="packages.config" />
+    <Content Include="Config\404handlers.config" />
+    <Content Include="Config\applications.config" />
+    <Content Include="Config\BaseRestExtensions.config" />
+    <Content Include="Config\ClientDependency.config" />
+    <Content Include="Config\Dashboard.config" />
+    <Content Include="Config\EmbeddedMedia.config" />
+    <Content Include="Config\ExamineIndex.config" />
+    <Content Include="Config\ExamineSettings.config" />
+    <Content Include="Config\feedProxy.config" />
+    <Content Include="Config\FileSystemProviders.config" />
+    <Content Include="Config\log4net.config" />
+    <Content Include="Config\metablogConfig.config" />
+    <Content Include="Config\scripting.config" />
+    <Content Include="Config\tinyMceConfig.config" />
+    <Content Include="Config\trees.config" />
+    <Content Include="Config\umbracoSettings.config" />
+    <Content Include="Config\UrlRewriting.config" />
     <None Include="Properties\PublishProfiles\FileSystem.pubxml" />
+    <Content Include="Views\Partials\umbAbout.cshtml" />
+    <Content Include="Views\Partials\umbFeatures.cshtml" />
+    <Content Include="Views\Partials\umbHomepageBanner.cshtml" />
+    <Content Include="Views\Partials\umbLatestNewsWidget.cshtml" />
+    <Content Include="Views\Partials\umbNewsOverviewWidget.cshtml" />
+    <Content Include="Views\Partials\umbSocial.cshtml" />
+    <Content Include="Views\Partials\umbTopNavigation.cshtml" />
+    <Content Include="Views\umbHomePage.cshtml" />
+    <Content Include="Views\umbLayout.cshtml" />
+    <Content Include="Views\umbNewsItem.cshtml" />
+    <Content Include="Views\umbNewsOverview.cshtml" />
+    <Content Include="Views\umbTextPage.cshtml" />
+    <Content Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -226,7 +278,9 @@
       <Name>SuperWebApp.Component</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\MacroPartials\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
